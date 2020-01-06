@@ -6,10 +6,6 @@ Other files are functions that needed
 
 Computing the sidewall scattering loss of photonic waveguides using volume current method.
 
-Citation for this VCM solver:
-
-Chen, Hong, et al. "Study of crystalline defect induced optical scattering loss inside photonic waveguides in UV–visible spectral wavelengths using volume current method." Optics Express 27.12 (2019): 17262-17273.
-
 %%%%%% Important note %%%%%
 
 Most importantly, to run this code on matlab, you should download a FDM solver from:
@@ -22,11 +18,11 @@ Fallahkhair, Arman B., Kai S. Li, and Thomas E. Murphy. "Vector finite differenc
 
 We will call several functions from "wgmodes": wgmodes.m, postprocess.m, contourmode.m 
 
-Alternatively, you can use your own FDM or FEM solver to compute the mode profile.
+Alternatively, you can use your own FDM or FEM solver to compute the mode profile. 
 
 The obtained mode profile serves as the input for dyadic Green's function
 
-%%%%%%
+%%%%%%%
 
 Some other useful references:
 
@@ -47,4 +43,12 @@ Figure 2: "Volume current" at the sidewall, whose radiation is resonsible for th
 Figure 3: Distributaion of Poynting vector in the far field in polar plot. Coordinate is defined in Ref. 1
 
 neff indicates the effective index for the computed mode.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+If you feel that this code is helpful to your research, you may cite the following reference for this VCM solver:
+
+Chen, Hong, et al. "Study of crystalline defect induced optical scattering loss inside photonic waveguides in UV–visible spectral wavelengths using volume current method." Optics Express 27.12 (2019): 17262-17273.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
