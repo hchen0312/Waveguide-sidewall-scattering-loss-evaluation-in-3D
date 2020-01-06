@@ -7,8 +7,9 @@ Most importantly, to run this code on matlab, you should download the FDM solver
 
 https://www.photonics.umd.edu/software/wgmodes/
 
-Credit & Citation: Fallahkhair, Arman B., Kai S. Li, and Thomas E. Murphy. "Vector finite difference modesolver for anisotropic
-dielectric waveguides." Journal of Lightwave Technology 26.11 (2008): 1423-1431.
+Credit & Citation for the FDM solver: Fallahkhair, Arman B., Kai S. Li, and Thomas E. Murphy. "Vector finite difference modesolver for anisotropic dielectric waveguides." Journal of Lightwave Technology 26.11 (2008): 1423-1431.
+
+Citation for the VCM solver: Chen, Hong, et al. "Study of crystalline defect induced optical scattering loss inside photonic waveguides in UV–visible spectral wavelengths using volume current method." Optics Express 27.12 (2019): 17262-17273.
 
 We will call several functions from "wgmodes": wgmodes.m, postprocess.m, contourmode.m 
 
