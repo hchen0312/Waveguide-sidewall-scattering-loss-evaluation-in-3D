@@ -1,7 +1,7 @@
 # Waveguide-sidewall-scattering-loss-evaluation-in-3D
 Computing the sidewall scattering loss of photonic waveguides using volume current method.
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Important note %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Important note %%%%%
 
 Most importantly, to run this code on matlab, you should download the FDM solver from:
 
@@ -16,7 +16,7 @@ Alternatively, you can use your own FDM or FEM solver to compute the mode profil
 
 The obtained mode profile serves as the input for dyadic Green's function
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%
 
 Some other useful references:
 
