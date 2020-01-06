@@ -1,19 +1,24 @@
 # Waveguide-sidewall-scattering-loss-evaluation-in-3D
+
+Run "loss_in_dB_github.m" to compute sidewall scattering (can also be used for defect scattering)
+
+Other files are functions that needed
+
 Computing the sidewall scattering loss of photonic waveguides using volume current method.
+
+Citation for this VCM solver:
+
+Chen, Hong, et al. "Study of crystalline defect induced optical scattering loss inside photonic waveguides in UV–visible spectral wavelengths using volume current method." Optics Express 27.12 (2019): 17262-17273.
 
 %%%%%% Important note %%%%%
 
-Most importantly, to run this code on matlab, you should download the FDM solver from:
+Most importantly, to run this code on matlab, you should download a FDM solver from:
 
 https://www.photonics.umd.edu/software/wgmodes/
 
 Credit & Citation for the FDM solver: 
 
 Fallahkhair, Arman B., Kai S. Li, and Thomas E. Murphy. "Vector finite difference modesolver for anisotropic dielectric waveguides." Journal of Lightwave Technology 26.11 (2008): 1423-1431.
-
-Citation for the VCM solver: 
-
-Chen, Hong, et al. "Study of crystalline defect induced optical scattering loss inside photonic waveguides in UV–visible spectral wavelengths using volume current method." Optics Express 27.12 (2019): 17262-17273.
 
 We will call several functions from "wgmodes": wgmodes.m, postprocess.m, contourmode.m 
 
